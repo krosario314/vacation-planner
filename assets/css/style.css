@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Goldman', cursive;
+    color:#ffe81f;
+    background-color: #1a1a1a;
+}
+
+html{
+    height: 100%;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    
+}
+
+.topnav{
+    display: flex;
+    justify-content: center;
+}
+.topnav input[type=text] {
+    /* float: right; */
+    padding: 6px;
+    
+    border: 1px solid #ccc;
+    font-size: 17px;
+}
+
+.results{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.aTag{
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow: 2px 2px black;
+}
+
+.card {
+    margin-top: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    width: 30%;
+    text-align: center;
+    background-color: black;
+    color:#ffe81f;
+  }
+
+.singleCard{
+    margin: auto;
+    padding: 0px;
+    width: 50%;
+    text-align: center;
+    background-color: #1a1a1a;
+    color:#ffe81f;
+}
+
+.singlePageFont{
+    font-size: 25px;
+}
+
+.singlePageFontBigger{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.weatherBorder{
+    margin-left: 12vw;
+    margin-right: 12vw;
+    border: 2px solid white;
+}
+
+#planet-desc{
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.black{
+    background-color: #1a1a1a;
+}
+
+.card-content{
+    background-color: #1a1a1a;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* makes the nav bar black*/
+.navbar {
+    background-color: black;
+}
+/* Home button yellow */
+.navbar-item {
+    color: #ffe81f;
+}
+/* menu link yellow */
+.navbar-link {
+    color: #ffe81f;
+}
+/* items in menu */
+.navbar-dropdown .navbar-item {
+    color: black;
+}
+/* picture header */
+.pictureContainer {
+    text-align: center;
+}
+
+.searchBarContainer {
+   position:relative;
+   padding: 14px 0;
+   background-color: blue;
+}
+
+.submit-btn{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 16px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+}
+
+.search-bar-border {
+    border-style:double;
+    background-color: #1a1a1a;
+    padding: auto;
+}
+
+.planetBar {
+    background-color: purple;
+}
+
+.climateBar {
+    background-color: green;
+}
+
+/* cards design */
+.homePageCard {
+    margin-top: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    width: 60%;
+    text-align: center;
+    box-shadow: 0 6px 10px black;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 50%;
+    color: #ffe81f;
+    background-color: unset;
+}
+
+.submit-btn {
+    background-color: black;
+    color: #ffe81f;
+    font-family: 'Goldman', cursive;
+}
+
+h3{
+    background-color: unset;
+}
+
+.goBackButton{
+    background-color: #1a1a1a;
+    color: #ffe81f;
+    font-family: 'Goldman', cursive;
+}
+
+.noButtonBorder{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+select{
+    font-family: 'Goldman', cursive;
+}

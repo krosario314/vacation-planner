@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SINGLE PLANET PAGE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="black">
+    <h1 id="planet-name" class="is-size-1 has-text-centered"></h1>
+
+    <div class="card singleCard">
+      <div class="card-image">
+        <figure class="image is-1280x960">
+          <img
+            id="planet-image"
+            src=""
+            alt="Picture of Planet"
+            
+          />
+        </figure>
+      </div>
+    </div>
+    <div class="black card-content">
+      <div class="media">
+        <div class="media-content black">
+          <p id="planet-desc" class="has-text-centered singlePageFont"></p>
+        </div>
+      </div>
+      <br>
+    <div class="weatherBorder">
+      <div class="black singlePageFontBigger has-text-centered">Current Weather</div>
+      <div id="current-temp" class="black singlePageFont has-text-centered"></div>
+      <div id="current-conditions" class=" singlePageFont has-text-centered"></div>
+      <div id="humid" class=" singlePageFont has-text-centered"></div>
+      <div id="uvi" class=" singlePageFont has-text-centered"></div>
+    </div>
+    
+    </div>
+  </div>
+
+<div class="has-text-centered">
+  <button id="goBack" class="button goBackButton">Go Back</button>
+</div>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/singlePlanetPage.js"></script>
+</body>
+
+</html>

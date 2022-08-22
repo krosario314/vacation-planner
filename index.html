@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STAR WARS VACATION PLANNER</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/2560px-Star_Wars_Logo.svg.png"
+            width="60"
+            height="60"
+          />
+          <!-- ^ Nav bar logo ^ -->
+        </a>
+        <!-- Nav bar buttons -->
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <!-- Nav bar buttons + drop down menu -->
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="#navHome" class="navbar-item"> Home </a>
+
+          <a href="#navSearch" class="navbar-item"> Search </a>
+
+          <a href="#navPop" class="navbar-item"> Popular Destinations </a>
+        </div>
+      </div>
+    </nav>
+    <!-- Picture at the top of browser -->
+    <div class="pictureContainer">
+      <img
+        id="navHome"
+        src="./assets/images/starWarsHeader.JPEG"
+        alt="header"
+        ;
+        width="100%"
+        ;
+      />
+    </div>
+    <!-- row one containing planets search bar -->
+    <div id="navSearch" class="row">
+      <div class="search-bar-border has-text-centered">
+        <select name="planets" id="planetsList"></select>
+        <button
+          id="search-by-planet-button"
+          class="submit-btn"
+          type="submit"
+          style="width: 10%; height: 20%"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+    <!-- row two containing climates search bar -->
+    <div class="row">
+      <div class="row search-bar-border has-text-centered">
+        <select name="planets" id="climatesList"></select>
+        <button
+          id="search-by-climate-button"
+          class="submit-btn"
+          type="submit"
+          style="width: 10%; height: 20%"
+        >
+          Search
+        </button>
+      </div>
+      <br>
+      <br>
+      <!-- row three containing destination cards -->
+      <div id="navPop" class="row">
+        <div class="Destinations">
+
+        <h1>Popular Destinations</h1>
+
+        <div class="columns has-text-centered">
+          <!-- Planet Tatooine Card -->
+          <div class="column">
+            <div class="homePageCard">
+              Tatooine
+              <button class="planetTatooine noButtonBorder">
+                <img src="./assets/homepagePlanets/tatooine.JPG" />
+              </button>
+            </div>
+          </div>
+          <!-- Planet Alderaan Card -->
+          <div class="column">
+            <div class="homePageCard">
+              Alderaan
+              <button class="planetAlderaan noButtonBorder">
+                <img src="./assets/homepagePlanets/alderaan.JPG" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns has-text-centered">
+          <!-- Planet Hoth Card -->
+          <div class="column">
+            <div class="homePageCard">
+              Hoth
+              <button class="planetHoth noButtonBorder">
+                <img src="./assets/homepagePlanets/hoth.jpg" />
+              </button>
+            </div>
+          </div>
+          <!-- Planet Mustafar Card -->
+          <div class="column">
+            <div class="homePageCard">
+              Mustafar
+              <button class="planetMustafar noButtonBorder">
+                <img src="./assets/homepagePlanets/mustafar.jpg" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns has-text-centered">
+          <!-- Planet Naboo Card -->
+          <div class="column">
+          <div class="homePageCard">
+            Naboo
+            <button class="planetNaboo noButtonBorder">
+              <img src="./assets/homepagePlanets/naboo.jpg" />
+            </button>
+          </div>
+          </div>
+          <!-- Planet Coruscant Card -->
+          <div class="column">
+          <div class="homePageCard">
+            Coruscant
+            <button class="planetCoruscant noButtonBorder">
+              <img src="./assets/homepagePlanets/corcuscant.jpg" />
+            </button>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>    </div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Goldman&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>SEARCH RESULTS PAGE</title>
+  </head>
+
+  <body>
+    <div class="topnav row">
+      <select name="planets" id="planetsList"></select>
+      <button
+        id="search-by-planet-button"
+        class="submit-btn"
+        type="submit"
+        style="width: 10%; height: 20%"
+      >
+        Search
+      </button>
+
+      <select
+        name="planets"
+        id="climatesList"
+        style="margin-left: 50px"
+      ></select>
+      <button
+        id="search-by-climate-button"
+        class="submit-btn"
+        type="submit"
+        style="width: 10%; height: 20%"
+      >
+        Search
+      </button>
+    </div>
+
+    <section id="search-result-append" class="row results"></section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/searchResults.js"></script>
+  </body>
+</html>
